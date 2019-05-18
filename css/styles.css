@@ -1,0 +1,584 @@
+html{
+	line-height: 1.15;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1280px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.button{
+    color: #fff;
+    background: #00AEDA;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.button:hover{
+	background: #222225;
+    color: #00AEDA;
+    transition: 0.4s;
+}
+   
+#classes h2, #promises h2, #pricing h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/**************************************************************************
+                                   HEADER
+**************************************************************************/
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 800px;
+    color: #fff;
+    display: block;
+}
+
+header .menu{
+	width: 100%;
+	background: transparent;
+	padding-top: 30px;
+	position: fixed;
+    transition: .4s;
+}
+
+header .wrapper-logo{
+	float: left;
+	color: #fff;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: block;
+	list-style: none;
+    list-style-type: disc;
+}
+
+header nav ul li{
+	display: inline-block;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover{
+	color: #00AEDA;
+    transition: 0.4s;
+}
+
+header .wrapper-title{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 290px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header .wrapper-title-content{
+	text-align: center;
+}
+
+header .wrapper-title h1{
+	color: #fff;
+	font-size: 55px;
+    margin-bottom: 5px;
+}
+
+header .wrapper-title p{
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+header .wrapper-title a{
+	color: #fff;
+}
+
+
+
+
+
+
+/**************************************************************************
+                                   CLASSES
+**************************************************************************/
+
+#classes{
+	background: #2e2e30;
+	padding: 90px 0;
+}
+
+#classes h2{
+    color: #fff;
+}
+
+#classes p{
+    text-align: center;
+    color: #A1A1A1;
+    margin-bottom: 50px;
+    width: 60%;
+    margin: auto;
+    line-height: 28px;
+}
+
+#classes .wrapper-classes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+
+#classes .wrapper-classes ul{
+	list-style: none;
+	width: 26%;
+	text-align: center;
+    margin-bottom: 30px;
+}
+
+#classes .wrapper-classes ul li:nth-child(1){
+	margin-bottom: 30px;
+}
+
+#classes .wrapper-classes ul li i{
+    background: #00AEDA;
+    color: #fff;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+#classes .wrapper-classes ul li:nth-child(2){
+	color: #fff;
+	font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#classes .wrapper-classes ul li:nth-child(3){
+	color: #A1A1A1;
+	font-size: 14px;
+    line-height: 23px;
+}
+
+
+
+
+
+/**************************************************************************
+                                  PROMISES
+**************************************************************************/
+
+#promises{
+	padding: 90px 0;
+}
+
+#promises p{
+	text-align: center;
+	width: 44%;
+	margin: auto;
+	font-size: 14px;
+	color: #A1A1A1;
+	line-height: 20px;
+}
+
+#promises .content{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#promises .promises-1 ul, #promises .promises-2 ul{
+	list-style: none;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-right: 25px;
+}
+
+#promises .promises-1 ul{
+    text-align: right;
+}
+
+#promises .promises-2 ul{
+    text-align: left;
+}
+
+#promises i{
+	color: #6FD1EA;
+    font-size: 50px;
+    margin-bottom: 20px;	
+}
+
+#promises .promises-1 ul li:nth-child(2), #promises .promises-2 ul li:nth-child(2){
+	color: #A1A1A1;
+	letter-spacing: 1px;
+	line-height: 23px;
+}
+
+
+
+
+
+/**************************************************************************
+                                  FEATURES
+**************************************************************************/
+
+#features{
+	padding: 50px 0;
+}
+
+#features .wrapper{
+	max-width: 1580px;
+}
+
+#features .feature{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+#features .feature .text{
+	width: 35%;
+}
+
+#features .feature h3{
+	font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+#features .feature p, #features .feature ul li{
+	color: #A1A1A1;
+	line-height: 23px;
+}
+
+#features .feature ul{
+	margin-left: 20px;
+	padding: 0;
+}
+
+
+
+
+
+/**************************************************************************
+                                  QUOTE
+**************************************************************************/
+
+#quote{
+	padding: 190px 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/quote.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#quote p{
+	font-size: 40px;
+}
+
+#quote .wrapper-button{
+	background: #00AEDA;
+    font-weight: 600;
+    transition: 0.4s;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+#quote .wrapper-button:hover{
+	background: #222225;
+    color: #00AEDA;
+    transition: 0.4s;
+}
+
+#quote .wrapper-button a{
+	text-decoration: none;
+	color: #fff;
+	transition: 0.4s;
+}
+
+#quote .wrapper-button a:hover{
+    color: #00AEDA;	
+   	transition: 0.4s;
+}
+
+
+
+
+
+
+/**************************************************************************
+                                  REVIEWS
+**************************************************************************/
+
+#reviews{
+	padding: 50px 0;
+	background: #00aeda;
+}
+
+#reviews img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: auto;   
+}
+
+#reviews .testimonial-item  {
+    text-align: center;
+}
+
+#reviews .testimonial-client p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+#reviews .testimonial-text {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/**************************************************************************
+                                  PRICING
+**************************************************************************/
+
+#pricing{
+    padding: 90px 0;
+    background-color: #2E2E30;
+}
+
+#pricing h2{
+    color: #fff;
+}
+
+#pricing p{
+    color: #a1a1a1;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 70px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#pricing .wrapper-prices{
+    display: flex;
+    justify-content: space-around;
+}
+
+#pricing .wrapper-prices ul{
+    width: 40%;
+    color: #7d7d7f;
+    background: #222225;
+    padding: 60px;
+    margin: 0;
+    margin: auto;
+}
+
+#pricing .wrapper-prices ul li{
+    list-style: none;
+    text-align: center;
+}
+
+#pricing .wrapper-prices ul li h3{
+    color: #7d7d7f;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+#pricing .wrapper-prices ul li:nth-child(2){
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 60px;
+    font-weight: 900;
+}
+
+#pricing .wrapper-prices ul li:nth-child(3){
+    font-size: 14px;
+    line-height: 25px;
+    color: #888;
+    width: 56%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+/**************************************************************************
+                                  CONTACT
+**************************************************************************/
+
+#contact{
+    background: linear-gradient(to right, rgba(0, 174, 218, 0.5), rgba(0, 174, 218, 0.9)), url(../images/cta_bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 90px 0px;
+}
+
+#contact h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    width: 26%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#contact .suscribe{
+    display: flex;
+    justify-content: center;
+}
+
+#contact .suscribe input[type="text"]{
+    width: 300px;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 15px;
+}
+
+#contact .suscribe input[type="submit"]{
+    padding: 10px 25px;
+    font-size: 14px;
+    background: #222225;
+    border: 0;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#contact .suscribe input[type="submit"]:hover{
+    background: #000;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+/**************************************************************************
+                                  FOOTER
+**************************************************************************/
+
+footer{
+    padding: 60px 0;
+    background-color: #222;
+}
+
+footer .wrapper-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer li{
+    list-style: none;
+    color: #A1A1A1;
+}
+
+footer .about{
+    width: 33%;
+}
+
+footer .contact{
+    width: 26%;
+}
+
+footer h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .about li, footer .contact li{
+    font-size: 14px;
+}
+
+footer .about li:nth-child(2){
+    margin-bottom: 15px;
+}
+
+footer .socialmedia i{
+    color: #000;
+    background: #00AEDA;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+    line-height: 40px;
+    transition: .4s;
+    text-align: center;
+}
+
+footer .socialmedia i:hover{
+    color: #fff;
+    background: #000;
+    transition: .4s;
+}
